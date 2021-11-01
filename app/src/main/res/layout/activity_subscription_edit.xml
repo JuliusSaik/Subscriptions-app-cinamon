@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SubscriptionEdit">
+
+    <Button
+        android:id="@+id/bttnAddSubscription"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/buttonstyle"
+        android:elevation="20dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="Add Subscription"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/bttnBackArrowSubEdit"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/backbutton" />
+
+    <ImageView
+        android:id="@+id/ivSubscriptionIcon"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/adobecc" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="right|end" />
+
+    <TextView
+        android:id="@+id/RemindMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/roboto"
+        android:text="Remind Me"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/roboto"
+        android:text="Name"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/nameView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/rectangle_subscription_edit" />
+
+    <TextView
+        android:id="@+id/tvNameOfSubscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/roboto"
+        android:text="Adobe CC"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:id="@+id/priceOfSubscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/roboto"
+            android:text="Price"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/priceView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rectangle_subscription_edit" />
+
+        <TextView
+            android:id="@+id/tvPriceOfSubscription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/roboto"
+            android:text="60.99EUR"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Cycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp">
+
+        <TextView
+            android:id="@+id/tvCycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/roboto"
+            android:text="Cycle"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/cycleView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rectangle_subscription_edit" />
+
+        <TextView
+            android:id="@+id/tvCycleOfSubscription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/roboto"
+            android:text="Monthly"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp">
+
+        <TextView
+            android:id="@+id/tvDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/roboto"
+            android:text="Duration"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/durationView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rectangle_subscription_edit" />
+
+        <TextView
+            android:id="@+id/tvDurationOfSubscription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/roboto"
+            android:text="Forever"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/nextPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp">
+
+        <TextView
+            android:id="@+id/tvNextPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/roboto"
+            android:text="Next Payment"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/paymentView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rectangle_subscription_edit" />
+
+        <TextView
+            android:id="@+id/tvNextPaymentOfSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/roboto"
+            android:text="00/00"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+</FrameLayout>

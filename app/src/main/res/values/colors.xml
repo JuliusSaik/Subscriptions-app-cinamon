@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22262d</color>
+    <color name="colorPrimaryDark">#22262d</color>
+    <color name="colorPrimaryButton">#1a1c20</color>
+    <color name="fullBlack">#000000</color>
+    <color name="colorAccent">#FFFF</color>
+    <color name="blue">#2e86de</color>
+    <color name="purple">#f368e0</color>
+    <color name="alizarin">#e74c3c</color>
+    <color name="pomegranate">#c0392b</color>
+    <color name="amazonOrange">#e67e22</color>
+    <color name="spotify">#2ecc71</color>
+    <color name="xboxlive">#27ae60</color>
+    <color name="hulu">#1dd1a1</color>
+    <color name="hbo">#222f3e</color>
+    <color name="appleMusic">#FC427B</color>
+    <color name="playstaion">#0984e3</color>
+    <color name="onepassword">#74b9ff</color>
+    <color name="fivepx">#0abde3</color>
+    <color name="amazonAws">#f1c40f</color>
+    <color name="americanExpress">#246ea9</color>
+    <color name="audible">#ffa502</color>
+    <color name="asana">#ff6348</color>
+    <color name="avg">#57606f</color>
+    <color name="bluehost">#3075cf</color>
+    <color name="bankofamerica">#dc1431</color>
+    <color name="barclays">#00afe9</color>
+    <color name="bt">#1e90ff</color>
+    <color name="bite">#2eb34a</color>
+    <color name="blizzard">#0566b0</color>
+    <color name="comcast">#db3c27</color>
+    <color name="crunchyroll">#f78b24</color>
+</resources>

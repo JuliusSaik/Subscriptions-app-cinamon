@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "607278724007",
+    "firebase_url": "https://cinamon-subscriptionsmanager.firebaseio.com",
+    "project_id": "cinamon-subscriptionsmanager",
+    "storage_bucket": "cinamon-subscriptionsmanager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607278724007:android:2ae168b1ead968a5",
+        "android_client_info": {
+          "package_name": "com.saikauskas.julius.cinamon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607278724007-16jan1gphhsn5p27m3fm78f6bc55mgqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saikauskas.julius.cinamon",
+            "certificate_hash": "480c8c2825271346b577da31f72e839471fb1ca8"
+          }
+        },
+        {
+          "client_id": "607278724007-n7b7ahpp8knblvrul9k2nrvgb1ff6713.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxQEMnA0TvEB_k29JTxTj8a9hOLy6o5rU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607278724007-n7b7ahpp8knblvrul9k2nrvgb1ff6713.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

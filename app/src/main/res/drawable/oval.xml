@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/listview_background_shape">
+    <!-- Bottom 2dp Shadow -->
+
+
+    <!-- White Top color -->
+    <item android:bottom="8px">
+
+        <shape  android:shape="oval">
+
+            <solid android:color="@color/alizarin" />
+            <corners android:radius="0dp" />
+
+
+        </shape>
+
+    </item>
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/alizarin"/>
+            <!--shadow Color-->
+        </shape>
+    </item>
+
+    <item
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp"
+        android:bottom="2dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/alizarin"/>//Background Color
+        </shape>
+    </item>
+
+</layer-list>

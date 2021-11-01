@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".AddSubscriptionActivity">
+
+    <Button
+        android:id="@+id/bttnEdit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="15dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Edit"
+        android:textColor="@color/colorAccent" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ActionToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryButton"
+        app:titleTextColor="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/bttnBackArrowAddSub"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/backbutton" />
+
+    <TextView
+        android:id="@+id/tvAddSubscriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/ubuntu"
+        android:gravity="center"
+        android:text="Add Subscription"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tvAddSubscriptionBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="15dp"
+        android:clickable="true"
+        android:fontFamily="@font/roboto_light"
+        android:text="+"
+        android:textColor="@color/colorAccent"
+        android:textSize="35sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:nestedScrollingEnabled="false"
+        android:animateLayoutChanges="false"
+        android:scrollbars="vertical" >
+
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>

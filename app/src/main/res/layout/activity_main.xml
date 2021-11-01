@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/ivMenuIcon"
+        android:layout_width="22dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="60dp"
+        app:srcCompat="@drawable/sorting" />
+
+    <ImageView
+        android:id="@+id/ivSettingsIcon"
+        android:layout_width="22dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/settingsicon" />
+
+    <ImageView
+        android:id="@+id/ivIcon2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|center_vertical|center_horizontal|center|start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="appIconRegistrationActivity"
+        app:srcCompat="@drawable/newicon" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/rectangle2" />
+
+    <View
+        android:id="@+id/ivAddSubscription"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/oval"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/tvAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="Monthly Average"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvMoneyPaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="124.50£"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="38.5dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/roboto_light"
+        android:text="+"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/raleway"
+        android:text="Aiden"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+</FrameLayout>
